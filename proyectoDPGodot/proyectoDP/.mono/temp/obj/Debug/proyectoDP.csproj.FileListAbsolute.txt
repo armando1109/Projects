@@ -1,0 +1,18 @@
+C:\Users\Armando\Documents\godotProjects\proyectoDP\.mono\temp\obj\Debug\proyectoDP.csproj.AssemblyReference.cache
+C:\Users\Armando\Documents\godotProjects\proyectoDP\.mono\temp\obj\Debug\proyectoDP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Armando\Documents\godotProjects\proyectoDP\.mono\temp\obj\Debug\proyectoDP.AssemblyInfoInputs.cache
+C:\Users\Armando\Documents\godotProjects\proyectoDP\.mono\temp\obj\Debug\proyectoDP.AssemblyInfo.cs
+C:\Users\Armando\Documents\godotProjects\proyectoDP\.mono\temp\obj\Debug\proyectoDP.csproj.CoreCompileInputs.cache
+C:\Users\Armando\Documents\godotProjects\proyectoDP\.mono\temp\bin\Debug\proyectoDP.dll
+C:\Users\Armando\Documents\godotProjects\proyectoDP\.mono\temp\bin\Debug\proyectoDP.pdb
+C:\Users\Armando\Documents\godotProjects\proyectoDP\.mono\temp\obj\Debug\proyectoDP.dll
+C:\Users\Armando\Documents\godotProjects\proyectoDP\.mono\temp\obj\Debug\proyectoDP.pdb
+C:\Users\Armando Sanchez\Documents\godotProjects\proyectoDP\.mono\temp\bin\Debug\proyectoDP.dll
+C:\Users\Armando Sanchez\Documents\godotProjects\proyectoDP\.mono\temp\bin\Debug\proyectoDP.pdb
+C:\Users\Armando Sanchez\Documents\godotProjects\proyectoDP\.mono\temp\obj\Debug\proyectoDP.csproj.AssemblyReference.cache
+C:\Users\Armando Sanchez\Documents\godotProjects\proyectoDP\.mono\temp\obj\Debug\proyectoDP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Armando Sanchez\Documents\godotProjects\proyectoDP\.mono\temp\obj\Debug\proyectoDP.AssemblyInfoInputs.cache
+C:\Users\Armando Sanchez\Documents\godotProjects\proyectoDP\.mono\temp\obj\Debug\proyectoDP.AssemblyInfo.cs
+C:\Users\Armando Sanchez\Documents\godotProjects\proyectoDP\.mono\temp\obj\Debug\proyectoDP.csproj.CoreCompileInputs.cache
+C:\Users\Armando Sanchez\Documents\godotProjects\proyectoDP\.mono\temp\obj\Debug\proyectoDP.dll
+C:\Users\Armando Sanchez\Documents\godotProjects\proyectoDP\.mono\temp\obj\Debug\proyectoDP.pdb

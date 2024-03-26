@@ -1,0 +1,72 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://assets/interfaces/fondo.jpg" type="Texture" id=1]
+[ext_resource path="res://assets/interfaces/play.png" type="Texture" id=2]
+[ext_resource path="res://assets/interfaces/exiticon.png" type="Texture" id=3]
+[ext_resource path="res://assets/interfaces/pergamino.png" type="Texture" id=4]
+[ext_resource path="res://menu.gd" type="Script" id=5]
+[ext_resource path="res://assets/Music/fondo.mp3" type="AudioStream" id=6]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.870588, 0.823529, 0.823529, 0 )
+
+[node name="menu" type="Control"]
+margin_right = 40.0
+margin_bottom = 40.0
+script = ExtResource( 5 )
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_right = 1240.0
+margin_bottom = 680.0
+texture = ExtResource( 1 )
+expand = true
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 312.0
+margin_top = 48.0
+margin_right = 1061.0
+margin_bottom = 427.0
+rect_scale = Vector2( 0.791151, 0.688165 )
+texture = ExtResource( 4 )
+expand = true
+stretch_mode = 1
+
+[node name="Label" type="Label" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 400.0
+margin_top = 88.0
+margin_right = 489.0
+margin_bottom = 62.0
+rect_scale = Vector2( 3.45989, 4.28952 )
+custom_styles/normal = SubResource( 1 )
+text = "\"DESERT PENGUINS\""
+
+[node name="play" type="TextureButton" parent="."]
+margin_left = 336.0
+margin_top = 424.0
+margin_right = 996.0
+margin_bottom = 634.0
+rect_scale = Vector2( 0.241151, 0.7419 )
+texture_normal = ExtResource( 2 )
+expand = true
+
+[node name="quit2" type="TextureButton" parent="."]
+margin_left = 776.0
+margin_top = 424.0
+margin_right = 6576.0
+margin_bottom = 3124.0
+rect_scale = Vector2( 0.0255091, 0.0556081 )
+texture_normal = ExtResource( 3 )
+expand = true
+
+[node name="fondo" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 6 )
+volume_db = -2.0
+
+[connection signal="pressed" from="play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="quit2" to="." method="_on_quit2_pressed"]

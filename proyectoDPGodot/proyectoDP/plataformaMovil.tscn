@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://escenas/background/14.png" type="Texture" id=1]
+[ext_resource path="res://escenas/background/16.png" type="Texture" id=2]
+
+[node name="plataformaMovil" type="KinematicBody2D"]
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( -64, 8 )
+texture = ExtResource( 1 )
+
+[node name="Sprite2" type="Sprite" parent="."]
+position = Vector2( 64, 8 )
+texture = ExtResource( 2 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+scale = Vector2( 12.8, 5.8 )
+polygon = PoolVector2Array( -9.375, -6.89655, 9.375, -6.89655, 10, -4.13793, 10, 2.75862, 6.25, 2.75862, 5.625, 5.51724, 3.125, 8.27586, 0, 9.65517, -3.75, 8.27586, -6.25, 2.75862, -10, 2.75862, -10, -5.51724 )
